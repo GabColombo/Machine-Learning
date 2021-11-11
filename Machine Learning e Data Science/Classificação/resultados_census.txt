@@ -1,0 +1,48 @@
+﻿Resultados Census
+-------------------------------------------------------------------------------------------
+0.7559 - Base Line Classifier
+
+0.4767 - Naive Bayes (labelencoder + onehotencoder + escalonamento)
+0.7952 - Naive Bayes (labelencoder)
+0.7950 - Naive Bayes (labelencoder + onehotencoder)
+0.8057 - Naive Bayes (labelencoder + escalonamento)
+
+0.8102 - Árvore de Decisão (labelencoder + onehotencoder + escalonamento)
+0.8128 - Árvore de Decisão (labelencoder)
+0.8102 - Árvore de Decisão (labelencoder + onehotencoder)
+0.8128 - Árvore de Decisão (labelencoder + escalonamento)
+
+0.8476 - Random Forest n_estimators = 40 (labelencoder + onehotencoder + escalonamento)
+0.8481 - Random Forest n_estimators = 40 (labelencoder)
+0.8489 - Random Forest n_estimators = 40 (labelencoder + onehotencoder)
+0.8483 - Random Forest n_estimators = 40 (labelencoder + escalonamento)
+0.8321 - Random Forest n_estimators = 40 (labelencoder + escalonamento) + PCA 6 componentes
+0.8200 - Random Forest n_estimators = 40 (labelencoder + escalonamento) + kernelPCA 6 componentes
+0.7334 - Random Forest n_estimators = 40 (labelencoder + escalonamento) + LDA 6 componentes
+
+0.8020 - Regras CN2 (sem pré-processamento + apenas 8% dos dados)
+
+0.8223 - KNN K = 5 (labelencoder + onehotencoder + escalonamento)
+0.7746 - KNN K = 5 (labelencoder)
+0.7760 - KNN K = 5 (labelencoder + onehotencoder)
+0.8219 - KNN K = 5 (labelencoder + escalonamento)
+
+0.8495 - Regressão Logística (labelencoder + onehotencoder + escalonamento)
+0.7909 - Regressão Logística (labelencoder)
+0.7954 - Regressão Logística (labelencoder + onehotencoder)
+0.8184 - Regressão Logística (labelencoder + escalonamento)
+
+0.8507 - SVM kernel = 'linear' (labelencoder + onehotencoder + escalonamento)
+   ?   - SVM kernel = 'linear' (labelencoder)
+   ?   - SVM kernel = 'linear' (labelencoder + onehotencoder)
+0.8135 - SVM kernel = 'linear' (labelencoder + escalonamento)
+
+0.8259 - Rede Neural scikit-learn (labelencoder + onehotencoder + escalonamento)
+0.7690 - Rede Neural scikit-learn (labelencoder)
+0.7924 - Rede Neural scikit-learn (labelencoder + onehotencoder)
+0.8390 - Rede Neural scikit-learn (labelencoder + escalonamento)
+
+0.8161 - Rede Neural keras (labelencoder + onehotencoder + escalonamento)
+0.7559 - Rede Neural keras (labelencoder)
+0.2440 - Rede Neural keras (labelencoder + onehotencoder)
+0.8472 - Rede Neural keras (labelencoder + escalonamento)
